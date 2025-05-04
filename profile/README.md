@@ -6,7 +6,7 @@
   <img src="https://pbs.twimg.com/profile_images/1873411258638331905/G6DBazwk_200x200.jpg" width="140" alt="Michi" />
 </div>
 
-*Note: To setup vt-Archiver/ properly with the correct folder structure, please download (and run) the python script located in [vt-Archiver/.github/setup/vt-Archiver_setup.py](https://github.com/vt-Archiver/.github/blob/main/setup/vt-Archiver_setup.py), this sets up the correct dir structure, and walks you through setting up each file you want with a 'nice' GUI*
+###### *Note: To setup vt-Archiver/ properly with the correct folder structure, please download (and run) the python script located in [vt-Archiver/.github/setup/vt-Archiver_setup.py](https://github.com/vt-Archiver/.github/blob/main/setup/vt-Archiver_setup.py), this sets up the correct dir structure, and walks you through setting up each file you want with a 'nice' GUI*
 ---
 
 ## What is vt-Archiver?
