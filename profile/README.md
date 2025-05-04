@@ -73,7 +73,7 @@ if the files are not structured like this the website UI will not work..., downl
 
 ---
 
-Expected Archiver structure:
+## Expected Archiver structure:
 ```
 Archiver
 ├─ archiver.scripts
