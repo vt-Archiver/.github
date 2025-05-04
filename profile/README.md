@@ -70,3 +70,55 @@ if the files are not structured like this the website UI will not work..., downl
 * **Docs / guides:** each repo ships its own `README.md` with setup steps
 * **Issue tracker:** [https://github.com/vt-Archiver/issues/issues](https://github.com/vt-Archiver/issues/issues)
 * **Michi Mochievee Archive (live demo):** [the website](michimochievee-archive.win)
+
+---
+
+Expected Archiver structure:
+```
+Archiver
+├─ archiver.scripts
+│  ├─ .dependencies
+│  │  ├─ ffmpeg
+│  │  │  ├─ ffmpeg.exe
+│  │  │  ├─ ffplay.exe
+│  │  │  └─ ffprobe.exe
+│  │  └─ yt-dlp
+│  │     └─ yt-dlp.exe
+│  ├─ Archiver-emotes-v1
+│  │  /See README in `Archiver-emotes-v1`
+│  ├─ Archiver-twitch-v1
+│  │  /See README in `Archiver-twitch-v1`
+│  ├─ Archiver-twitch-v2
+│  │  /See README in `Archiver-twitch-v2`
+│  └─ Archiver-youtube-v1
+│     /See README in `Archiver-youtube-v1`
+│
+├─ other.scripts
+│  /See README in `Archiver-miscellaneous-scripts`
+│
+├─ persons
+│  └─ [streamer]
+│     ├─ archival_progress
+│     │   /See streamtracker_gui.py in `Archiver-miscellaneous-scripts` (you should also read the readme)
+│     ├─ [platform]  <- e.g twitch/youtube
+│     │  └─ [type]   <- e.g vods/clips/videos/highlights etc
+│     │     └─ [date]_[type-char][id]_[title]
+│     │        ├─ hls
+│     │        │  ├─ vod.m3u8
+│     │        │  └─ vod.mp4
+│     │        ├─ thumbnails
+│     │        │  ├─thumbnail_00...01.jpg
+│     │        │  ├─thumbnail_00...02.jpg
+│     │        │  └─thumbnail_main.jpg
+│     │        ├─ chat.[type].sqlite
+│     │        ├─ events.[type].json
+│     │        └─ metadata.[type].json
+│     ├─ person
+│     │  └─ icon
+│     │     └─ 
+│     └─ [anything else you want to store about the streamer in question that's not directly related to videos, e.g I have an 'art' folder here for the official model art]
+│
+└─ websites
+   └─ Archiver-website-[streamer]
+      /See README in `Archiver-website-michimochievee`
+```
