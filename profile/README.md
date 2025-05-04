@@ -18,7 +18,8 @@
 * **Archive third-party emotes** (7TV + official) for a great chat replay
 * **Browse everything locally** through an HLS/MP4 player that feels like a mini-YouTube
 
-No servers to rent, no cloud buckets to maintain – just run the scripts on your own machine or NAS and open the web UI, and if you want to host a website with this you should easily be able to do that too!
+No servers to rent, no cloud buckets to maintain – just run the scripts on your own machine or NAS and open the web UI! 
+vt-Archiver is also easy to host to the wider interwebs, so if you want to do that you can do that too!
 
 ---
 
